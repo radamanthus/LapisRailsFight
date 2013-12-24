@@ -10,7 +10,7 @@ What's inside
 Setting up on local: INSTALL-OSX.md
 Seeting up on Engine Yard: INSTALL-ENGINEYARD.md
 Setting up the Lapis app: LAPIS-walkthrough.md
-Skeletop Rails app used for testing: lapis-rails/
+Skeletop Rails app used for testing: https://github.com/radamanthus/lapis-rails
 Lapis app: lapis/
 
 TL;DR
