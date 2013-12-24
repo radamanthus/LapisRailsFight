@@ -1,0 +1,26 @@
+Some parts of a Rails app can be optimized by rewriting them as a Lua modules that run directly inside Nginx, bypassing Rack and Rails completely. This task is made easier by using OpenResty, Lapis and Moonscript. OpenResty provides a ready-to-use set of Nginx modules, Lapis provides the Lua framework and Moonscript provides the CoffeeScript-like language that should be somewhat familiar to Rails programmers.
+
+LINKS
+http://openresty.org/
+http://leafo.net/lapis/
+http://moonscript.org/
+
+What's inside
+
+Setting up on local: INSTALL-OSX.md
+Seeting up on Engine Yard: INSTALL-ENGINEYARD.md
+Setting up the Lapis app: LAPIS-walkthrough.md
+Skeletop Rails app used for testing: lapis-rails/
+Lapis app: lapis/
+
+TL;DR
+
+Lapis model vs. Rails ActiveRecord on local:
+
+ab -n 1000 -c 100 http://127.0.0.1:8080/games/1
+ab -n 1000 -c 100 http://127.0.0.1:9000/games/1
+
+Lapis: 256.29 requests/sec
+Rails: 104.72 req/sec
+
+On EngineYard, performance is about the same. See RESULTS.md.

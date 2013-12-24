@@ -1,0 +1,57 @@
+2013/12/20 16:12:26 [alert] 24506#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/lapis/nginx.conf.compiled:15
+2013/12/20 16:14:22 [alert] 25942#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/lapis/nginx.conf.compiled:15
+2013/12/23 10:16:10 [alert] 7439#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:15
+2013/12/23 10:37:38 [alert] 8198#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:15
+2013/12/23 10:46:25 [alert] 11376#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:15
+2013/12/23 10:46:25 [emerg] 11376#0: "upstream" directive is not allowed here in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:30
+2013/12/23 10:47:41 [alert] 11448#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:15
+2013/12/23 10:47:41 [emerg] 11448#0: unknown directive "/*upstream" in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:30
+2013/12/23 10:47:58 [alert] 11512#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:15
+2013/12/23 10:50:59 [alert] 11871#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:15
+2013/12/23 10:50:59 [emerg] 11871#0: "upstream" directive is not allowed here in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:30
+2013/12/23 10:51:41 [emerg] 11938#0: "upstream" directive is not allowed here in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:10
+2013/12/23 10:52:06 [alert] 12003#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 10:53:34 [alert] 12075#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 10:53:56 [alert] 12141#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:15
+2013/12/23 10:59:24 [alert] 12730#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:15
+2013/12/23 11:01:35 [alert] 12809#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:15
+2013/12/23 11:02:36 [alert] 13006#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:15
+2013/12/23 11:03:59 [alert] 13139#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:15
+2013/12/23 11:04:52 [alert] 13308#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:15
+2013/12/23 11:09:39 [emerg] 13396#0: unknown directive "postgres_server" in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:14
+2013/12/23 11:24:31 [emerg] 21249#0: directive "postgres_server" is not terminated by ";" in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:14
+2013/12/23 11:24:52 [emerg] 21323#0: directive "postgres_server" is not terminated by ";" in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:14
+2013/12/23 11:25:29 [emerg] 21469#0: directive "postgres_server" is not terminated by ";" in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:14
+2013/12/23 11:27:25 [emerg] 21637#0: directive "postgres_server" is not terminated by ";" in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:14
+2013/12/23 11:27:31 [emerg] 21764#0: directive "postgres_server" is not terminated by ";" in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:14
+2013/12/23 11:27:47 [emerg] 21953#0: directive "postgres_server" is not terminated by ";" in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:14
+2013/12/23 11:27:59 [emerg] 22060#0: directive "postgres_server" is not terminated by ";" in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:14
+2013/12/23 11:28:12 [emerg] 22125#0: directive "postgres_server" is not terminated by ";" in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:14
+2013/12/23 11:28:22 [emerg] 22275#0: directive "postgres_server" is not terminated by ";" in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:14
+2013/12/23 11:31:07 [alert] 23119#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 11:32:01 [alert] 23188#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 11:33:34 [alert] 23261#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 11:34:59 [alert] 23336#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 11:40:15 [alert] 24528#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 11:43:49 [alert] 32548#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 11:46:20 [alert] 32630#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 11:46:41 [alert] 32700#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 11:48:23 [alert] 32772#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 11:51:30 [alert] 33538#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 11:53:04 [alert] 34028#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 11:57:13 [alert] 34304#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 12:04:09 [alert] 35130#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 12:04:43 [alert] 35199#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 12:05:09 [alert] 35268#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 13:13:31 [alert] 36449#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 13:19:48 [alert] 37443#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 13:20:09 [alert] 37614#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 13:20:38 [alert] 37670#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 13:21:23 [alert] 38516#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 13:21:50 [alert] 38588#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 13:22:22 [alert] 38662#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 13:22:59 [alert] 38731#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 13:23:19 [alert] 38800#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 13:23:28 [alert] 38931#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19
+2013/12/23 13:24:13 [emerg] 39031#0: unknown directive "/*lua_code_cache" in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:20
+2013/12/23 13:26:52 [alert] 40062#0: lua_code_cache is off; this will hurt performance in /Volumes/Data/Users/rad/Projects/ey/devday/lapis/nginx.conf.compiled:19

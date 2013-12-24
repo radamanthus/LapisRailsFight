@@ -1,0 +1,51 @@
+env LAPIS_ENVIRONMENT=development;
+worker_processes 1;
+error_log stderr notice;
+daemon off;
+
+events {
+  worker_connections 1024;
+}
+
+http {
+  include mime.types;
+
+  upstream database {
+    postgres_server 127.0.0.1 dbname=lapis-rails_development user=rad password=;
+  }
+
+  server {
+    listen 8080;
+    lua_code_cache on;
+
+    location / {
+      default_type text/html;
+      content_by_lua_file "web.lua";
+    }
+
+    location /static/ {
+      alias static/;
+    }
+
+    location /favicon.ico {
+      alias static/favicon.ico;
+    }
+
+    location = /query {
+      internal;
+      postgres_pass database;
+      postgres_query $echo_request_body;
+    }
+  }
+
+  upstream rails {
+    server localhost:9090;
+  }
+
+  server {
+    listen 9000;
+    location / {
+      proxy_pass http://rails;
+    }
+  }
+}
